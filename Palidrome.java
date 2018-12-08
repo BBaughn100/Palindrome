@@ -11,11 +11,10 @@ public class Palidrome {
 		// make user enter a string
 		System.out.print("Enter a string: ");
 		String pal = input.nextLine();
-		String reverse = "";
 		// loop through until get empty line
 		while (!pal.isEmpty()) {
 			if (pal.length() > 0) {
-				reverse = "";
+				String reverse = "";
 				int i;
 				for (i = pal.length() - 1; i >= 0; --i) {
 					reverse = reverse + pal.charAt(i);
